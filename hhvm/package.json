@@ -7,8 +7,8 @@
       "chmod +x #{self.bin}/hhvm"
     ],
     "exportedEnv": {
-      "HHVM_BIN": {
-        "val": "/usr/local/Cellar/hhvm@3.30-lts/3.30.3/bin/hhvm",
+      "HHVM_PREFIX": {
+        "val": "/usr/local/Cellar/hhvm@3.30-lts/3.30.3",
         "scope": "global"
       },
       "PATH": {
