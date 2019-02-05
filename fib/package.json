@@ -1,0 +1,12 @@
+{
+  "name": "fib",
+  "version": "1.0.0",
+  "esy": {
+    "exportedEnv": {
+      "PHP_INCLUDE_PATH": {
+        "val": "#{self.root}:$PHP_INCLUDE_PATH",
+        "scope": "global"
+      }
+    }
+  }
+}

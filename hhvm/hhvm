@@ -1,0 +1,2 @@
+#!/bin/sh
+"$HHVM_BIN" -d include_path="$PHP_INCLUDE_PATH" "$@"

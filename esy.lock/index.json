@@ -1,0 +1,37 @@
+{
+  "checksum": "80b4ba364ee4273bd34018fc83af9334",
+  "root": "hack-project@link-dev:./package.json",
+  "node": {
+    "hhvm@link:hhvm": {
+      "id": "hhvm@link:hhvm",
+      "name": "hhvm",
+      "version": "link:hhvm",
+      "source": { "type": "link", "path": "hhvm" },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "hack-project@link-dev:./package.json": {
+      "id": "hack-project@link-dev:./package.json",
+      "name": "hack-project",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [ "hhvm@link:hhvm", "fib@link:fib" ],
+      "devDependencies": []
+    },
+    "fib@link:fib": {
+      "id": "fib@link:fib",
+      "name": "fib",
+      "version": "link:fib",
+      "source": { "type": "link", "path": "fib" },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  }
+}

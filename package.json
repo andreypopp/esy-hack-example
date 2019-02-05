@@ -1,0 +1,11 @@
+{
+  "name": "hack-project",
+  "dependencies": {
+    "hhvm": "*",
+    "fib": "*"
+  },
+  "resolutions": {
+    "hhvm": "link:./hhvm",
+    "fib": "link:./fib"
+  }
+}
